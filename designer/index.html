@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Universal ID Studio - Template Designer</title>
+
+    <!-- Fabric JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fabric.js/5.3.0/fabric.min.js"></script>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="header">
+
+    <h2>Universal ID Template Designer</h2>
+
+</div>
+
+<div class="toolbar">
+
+    <button id="uploadTemplate">
+        Upload Template
+    </button>
+
+    <button id="addPhoto">
+        Photo
+    </button>
+
+    <button id="addName">
+        Name
+    </button>
+
+    <button id="addRoll">
+        Roll No
+    </button>
+
+    <button id="addBranch">
+        Branch
+    </button>
+
+    <button id="addYear">
+        Year
+    </button>
+
+    <button id="deleteObject">
+        Delete
+    </button>
+
+    <button id="saveLayout">
+        Save Layout
+    </button>
+
+</div>
+
+<input
+type="file"
+id="templateFile"
+accept=".png,.jpg,.jpeg"
+style="display:none;"
+>
+
+<div class="workspace">
+
+    <canvas id="canvas"></canvas>
+
+</div>
+
+<div id="status">
+
+Ready
+
+</div>
+<script src="canvas.js"></script>
+<script src="script.js"></script>
+
+</body>
+
+</html>

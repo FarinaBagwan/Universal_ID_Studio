@@ -1,0 +1,28 @@
+{
+    "template_id": 1,
+
+    "template_name": "Student ID Card",
+
+    "template_image": "templates/student_id_card.png",
+
+    "mapping_file": "config/mapper.json",
+
+    "card_type": "ID Card",
+
+    "card_size": {
+        "width": 1012,
+        "height": 638
+    },
+
+    "fields": [
+        "name",
+        "roll",
+        "branch",
+        "year",
+        "photo"
+    ],
+
+    "status": "active",
+
+    "created_date": ""
+}

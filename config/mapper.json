@@ -1,0 +1,41 @@
+{
+    "Name": {
+        "type": "text",
+        "x": 250,
+        "y": 91,
+        "width": 250,
+        "height": 27,
+        "font_size": 24
+    },
+    "Photo": {
+        "type": "image",
+        "x": 32,
+        "y": 98,
+        "width": 116,
+        "height": 139
+    },
+    "Roll_No": {
+        "type": "text",
+        "x": 252,
+        "y": 126,
+        "width": 250,
+        "height": 27,
+        "font_size": 24
+    },
+    "Branch": {
+        "type": "text",
+        "x": 256,
+        "y": 160,
+        "width": 250,
+        "height": 27,
+        "font_size": 24
+    },
+    "Year": {
+        "type": "text",
+        "x": 253,
+        "y": 199,
+        "width": 250,
+        "height": 27,
+        "font_size": 24
+    }
+}

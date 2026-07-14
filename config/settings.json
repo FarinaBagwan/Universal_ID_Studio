@@ -1,0 +1,30 @@
+{
+    "application_name": "Universal ID Studio",
+
+    "card_settings": {
+        "width": 1012,
+        "height": 638,
+        "dpi": 300,
+        "format": "PNG"
+    },
+
+    "folders": {
+        "template_folder": "templates",
+        "generated_folder": "generated_cards",
+        "config_folder": "config",
+        "upload_folder": "uploads"
+    },
+
+    "designer_settings": {
+        "default_font": "Arial",
+        "default_font_size": 24,
+        "default_text_color": "#000000",
+        "allow_resize": true,
+        "allow_drag": true
+    },
+
+    "generation_settings": {
+        "high_resolution": true,
+        "save_history": true
+    }
+}

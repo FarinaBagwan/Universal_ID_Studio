@@ -4,6 +4,7 @@ from streamlit_drawable_canvas import st_canvas
 import json
 import os
 
+
 LAYOUT_FILE = "config/mapper.json"
 
 
@@ -125,11 +126,21 @@ def template_designer():
         return
 
     # Open template image
+    
+
     image = Image.open(template_path)
+
+    MAX_WIDTH = 900
+
+    if image.width > MAX_WIDTH:
+        ratio = MAX_WIDTH / image.width
+        new_height = int(image.height * ratio)
+        image = image.resize((MAX_WIDTH, new_height), Image.LANCZOS)
 
     # -----------------------------
     # Sidebar
     # -----------------------------
+    st.image(image, use_container_width=True)
     st.sidebar.header("Dynamic Fields")
 
     fields = [

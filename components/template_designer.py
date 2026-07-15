@@ -130,18 +130,15 @@ def template_designer():
 
     image = Image.open(template_path)
 
-    MAX_WIDTH = 900
+    original_width, original_height = image.size
 
-    if image.width > MAX_WIDTH:
-        ratio = MAX_WIDTH / image.width
-        new_height = int(image.height * ratio)
-        image = image.resize((MAX_WIDTH, new_height), Image.LANCZOS)
+    display_width=min(original_width,900)
+    display_height=int(original_height*display_width/original_width)
 
     # -----------------------------
     # Sidebar
     # -----------------------------
-    st.image(image, use_container_width=True)
-    st.sidebar.header("Dynamic Fields")
+        st.sidebar.header("Dynamic Fields")
 
     fields = [
         "Name",
@@ -229,8 +226,8 @@ def template_designer():
         },
         drawing_mode="transform",
         update_streamlit=True,
-        width=image.width,
-        height=image.height,
+        width=display_width,
+        height=display_height,
         key="designer_canvas"
     )
 

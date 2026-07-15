@@ -138,7 +138,7 @@ def template_designer():
     # -----------------------------
     # Sidebar
     # -----------------------------
-        st.sidebar.header("Dynamic Fields")
+    st.sidebar.header("Dynamic Fields")
 
     fields = [
         "Name",

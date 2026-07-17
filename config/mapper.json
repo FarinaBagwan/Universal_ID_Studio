@@ -1,41 +1,49 @@
 {
     "Name": {
         "type": "text",
-        "x": 250,
-        "y": 91,
-        "width": 250,
-        "height": 27,
+        "x": 184,
+        "y": 629,
+        "width": 362,
+        "height": 39,
         "font_size": 24
     },
     "Photo": {
         "type": "image",
-        "x": 32,
-        "y": 98,
-        "width": 116,
-        "height": 139
+        "x": 186,
+        "y": 286,
+        "width": 275,
+        "height": 309
     },
     "Roll_No": {
         "type": "text",
-        "x": 252,
-        "y": 126,
-        "width": 250,
-        "height": 27,
+        "x": 225,
+        "y": 757,
+        "width": 305,
+        "height": 41,
         "font_size": 24
     },
     "Branch": {
         "type": "text",
-        "x": 256,
-        "y": 160,
-        "width": 250,
-        "height": 27,
+        "x": 222,
+        "y": 706,
+        "width": 352,
+        "height": 38,
         "font_size": 24
     },
-    "Year": {
+    "Mobile": {
         "type": "text",
-        "x": 253,
-        "y": 199,
-        "width": 250,
-        "height": 27,
+        "x": 217,
+        "y": 924,
+        "width": 325,
+        "height": 35,
+        "font_size": 24
+    },
+    "Address": {
+        "type": "text",
+        "x": 221,
+        "y": 801,
+        "width": 332,
+        "height": 36,
         "font_size": 24
     }
 }
